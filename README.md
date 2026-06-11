@@ -1,4 +1,4 @@
-#Project Overview
+# Project Overview
 
 This project analyzes employee attrition patterns and identifies key factors contributing to workforce turnover. The objective is to provide actionable recommendations to improve employee retention.
 
@@ -12,7 +12,7 @@ This project analyzes employee attrition patterns and identifies key factors con
 - Gamma / PowerPoint
 - GitHub
 
-##Project Workflow
+## Project Workflow
 
 Data Cleaning
 ↓
@@ -26,7 +26,7 @@ Power BI Dashboard
 ↓
 Business Recommendations
 
-##Key Findings
+## Key Findings
 
 - Overall Attrition Rate: 16.12%
 - Overtime employees show 30.53% attrition vs 10.44% for non-overtime employees.
@@ -34,7 +34,7 @@ Business Recommendations
 - Employees aged 18-25 show the highest attrition rate (35.77%).
 - Sales Representatives working overtime show 66.67% attrition.
 
-##Employee Attrition Analysis & HR Decision Support
+## Employee Attrition Analysis & HR Decision Support
 
 • Analyzed 1,470 employee records using Python, SQL, and Power BI to identify drivers of workforce attrition.
 • Performed data cleaning, exploratory analysis, and risk segmentation to uncover high-risk employee groups.
