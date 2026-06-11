@@ -1,6 +1,4 @@
-<img width="1533" height="523" alt="image" src="https://github.com/user-attachments/assets/1b24fc7e-4091-42b9-b88b-33198d5082ef" /># Employee-Attrition-Analysis-HR-Decision-Dashboard
-
-##Project Overview
+#Project Overview
 
 This project analyzes employee attrition patterns and identifies key factors contributing to workforce turnover. The objective is to provide actionable recommendations to improve employee retention.
 
