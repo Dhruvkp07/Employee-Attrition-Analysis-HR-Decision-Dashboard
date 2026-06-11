@@ -1,0 +1,42 @@
+-- Total Employees
+SELECT COUNT(*) AS TotalEmployees
+FROM HR_Analytics;
+
+
+-- Attrition Count
+SELECT Attrition, COUNT(*)
+FROM HR_Analytics
+GROUP BY Attrition;
+
+
+-- Attrition by Department
+SELECT Department,
+       COUNT(*) AS Employees_Left
+FROM HR_Analytics
+WHERE Attrition = 'Yes'
+GROUP BY Department
+ORDER BY Employees_Left DESC;
+
+
+-- Attrition by Job Role
+SELECT JobRole,
+       COUNT(*) AS Employees_Left
+FROM HR_Analytics
+WHERE Attrition = 'Yes'
+GROUP BY JobRole
+ORDER BY Employees_Left DESC;
+
+
+-- Average Salary by Attrition
+SELECT Attrition,
+       AVG(MonthlyIncome) AS AvgSalary
+FROM HR_Analytics
+GROUP BY Attrition;
+
+
+-- Overtime vs Attrition
+SELECT OverTime,
+       Attrition,
+       COUNT(*) AS EmployeeCount
+FROM HR_Analytics
+GROUP BY OverTime, Attrition;
