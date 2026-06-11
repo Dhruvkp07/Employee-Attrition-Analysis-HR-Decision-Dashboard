@@ -41,3 +41,5 @@ Business Recommendations
 • Built an interactive Power BI dashboard tracking attrition across salary, overtime, age, department, and job role dimensions.
 • Identified overtime and low compensation as major attrition drivers, with Sales Representatives working overtime showing 66.67% attrition.
 • Delivered business recommendations aimed at improving retention and reducing turnover costs.
+
+@dhruvkp
